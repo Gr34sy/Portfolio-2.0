@@ -4,6 +4,8 @@
   --color-light-grey: rgb(233, 226, 233);
   --color-purple: #8c52ff;
   --color-black: #151513;
+
+  --section-spacing: 5rem;
 }
 
 body {
@@ -15,4 +17,10 @@ body {
 
   color: var(--color-black);
   background-color: var(--white);
+}
+
+.header-title {
+  text-align: center;
+  font-size: 2rem;
+  padding-block: 2rem;
 }

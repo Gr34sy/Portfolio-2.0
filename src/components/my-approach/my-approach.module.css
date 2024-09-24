@@ -1,0 +1,29 @@
+.section {
+  height: 400px;
+  color: var(--color-white);
+  background-color: var(--color-black);
+}
+.section h3 {
+  padding-top: 0;
+}
+
+.cards {
+  width: 100% - 2rem;
+  margin-inline: auto;
+}
+
+.separator-top {
+  width: 0;
+  height: 0;
+  border-left: 100vw solid transparent;
+  border-bottom: 10vw solid var(--color-black);
+  margin-top: 5vw;
+}
+
+.separator-bottom {
+  width: 0;
+  height: 0;
+  border-left: 100vw solid transparent;
+  border-top: 10vw solid var(--color-black);
+  margin-bottom: 5vw;
+}
