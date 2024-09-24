@@ -11,6 +11,8 @@ body {
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
+  line-height: 1.2;
 
+  color: var(--color-black);
   background-color: var(--white);
 }

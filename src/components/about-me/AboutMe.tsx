@@ -3,9 +3,11 @@ import styles from "./about-me.module.css";
 type AboutMeProps = {
   title: string;
   subtitle: string;
+  location: string;
+  description: string;
 };
 
-const AboutMe = ({ title, subtitle }: AboutMeProps) => {
+const AboutMe = ({ title, subtitle, location, description }: AboutMeProps) => {
   return (
     <main>
       <div className={styles.header}>
@@ -15,6 +17,18 @@ const AboutMe = ({ title, subtitle }: AboutMeProps) => {
         </div>
 
         <div className={styles.avatar}></div>
+      </div>
+
+      <div className={styles.hero}>
+        <div>
+          <h3 className={styles.devname}>Piotr Słupski</h3>
+          <p>Based in {location}</p>
+        </div>
+
+        <div>
+          <h3 className={styles["about-header"]}>About me</h3>
+          <p>{description}</p>
+        </div>
       </div>
     </main>
   );
