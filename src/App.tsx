@@ -1,5 +1,6 @@
 import AboutMe from "./components/about-me/AboutMe";
 import MyApproach from "./components/my-approach/MyApproach";
+import Experience from "./components/experience/Experience";
 
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
       />
 
       <MyApproach />
+
+      <Experience />
     </div>
   );
 }
