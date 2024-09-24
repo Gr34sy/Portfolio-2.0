@@ -1,11 +1,12 @@
-
+import AboutMe from "./components/about-me/AboutMe";
 
 function App() {
   return (
     <div className="App">
-      <section>
-        
-      </section>
+      <AboutMe
+        title="Webdev"
+        subtitle="With an abundant tech stack experience"
+      />
     </div>
   );
 }
