@@ -1,11 +1,13 @@
 :root {
   --font-base: "Lato", sans-serif;
   --color-white: #fefefe;
-  --color-light-grey: rgb(233, 226, 233);
+  --color-light-grey: #ebebeb;
+  --color-grey: #b9b9b9;
   --color-purple: #8c52ff;
   --color-black: #151513;
 
   --section-spacing: 5rem;
+  --rounded-radius: 0.6rem;
 }
 
 body {
@@ -23,4 +25,10 @@ body {
   text-align: center;
   font-size: 2.4rem;
   padding-block: 2rem;
+}
+
+.box {
+  -webkit-box-shadow: 0px 0px 15px 4px var(--color-grey);
+  -moz-box-shadow: 0px 0px 15px 4px var(--color-grey);
+  box-shadow: 0px 0px 15px 4px var(--color-grey);
 }

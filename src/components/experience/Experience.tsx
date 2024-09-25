@@ -5,7 +5,7 @@ import { frontendSkills } from "../../lib/skills";
 const Experience = () => {
   function Card({ stack, skills }: { stack: string; skills: skill[] }) {
     return (
-      <div className={styles.card}>
+      <div className={`box ${styles.card}`}>
         <h4>{stack}</h4>
         <ul className={styles["card-list"]}>
           {skills.map((skill) => {
