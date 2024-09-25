@@ -1,0 +1,12 @@
+.separator {
+  width: 0;
+  height: 0;
+  border-right: 100vw solid transparent;
+  border-bottom: 10vw solid var(--color-black);
+  margin-top: 5vw;
+}
+
+.footer {
+  color: var(--color-white);
+  background-color: var(--color-black);
+}

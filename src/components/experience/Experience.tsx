@@ -1,7 +1,6 @@
 import styles from "./experience.module.css";
 import { skill } from "../../lib/skills";
 import { frontendSkills } from "../../lib/skills";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Experience = () => {
   function Card({ stack, skills }: { stack: string; skills: skill[] }) {

@@ -1,6 +1,7 @@
 import AboutMe from "./components/about-me/AboutMe";
 import MyApproach from "./components/my-approach/MyApproach";
 import Experience from "./components/experience/Experience";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
       <MyApproach />
 
       <Experience />
+
+      <Footer />
     </div>
   );
 }
