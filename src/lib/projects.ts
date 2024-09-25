@@ -64,8 +64,8 @@ export const projects: project[] = [
     title: "Rest Countries",
     description:
       "Web application created with Rest Countries API. You can search there info of all countries around the world! You can also turn on darkmode.",
-    repo: "https://github.com/Gr34sy/BestShop-project",
-    preview: "https://inspiring-sorbet-4f9b9d.netlify.app",
+    repo: "https://github.com/Gr34sy/react-countries-api",
+    preview: "https://guileless-semifreddo-6d7e9b.netlify.app",
     stack: ["React", "JavaScript", "SASS", "HTML", "CSS"],
     image: restCountries,
   },
