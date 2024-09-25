@@ -1,32 +1,38 @@
 import styles from "./experience.module.css";
 import { skill } from "../../lib/skills";
+import { frontendSkills } from "../../lib/skills";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Experience = () => {
   function Card({ stack, skills }: { stack: string; skills: skill[] }) {
     return (
       <div className={styles.card}>
         <h4>{stack}</h4>
-        <div>
+        <ul className={styles["card-list"]}>
           {skills.map((skill) => {
-            return <div>{skill.name}</div>;
+            return (
+              <li>
+                <img
+                  src={skill.devicon}
+                  alt={`${skill.name} logo`}
+                  className={styles.devicon}
+                />
+                {skill.name}
+              </li>
+            );
           })}
-        </div>
+        </ul>
       </div>
     );
   }
 
   return (
     <section className={styles.section}>
-      <h3 className="header-title">Experience</h3>
-      <div>
-        <Card
-          stack="Frontend"
-          skills={[
-            { name: "JS", devicon: "" },
-            { name: "React", devicon: "" },
-            { name: "Next", devicon: "" },
-          ]}
-        />
+      <h3 className="header-title">Tech Stack</h3>
+      <div className={styles.cards}>
+        <Card stack="Frontend" skills={frontendSkills} />
+        <Card stack="Backend" skills={frontendSkills} />
+        <Card stack="Other" skills={frontendSkills} />
       </div>
     </section>
   );

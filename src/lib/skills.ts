@@ -3,14 +3,24 @@ export type skill = {
   devicon: string;
 };
 
-export const frontend = [
-  { name: "JS", devicon: "" },
-  { name: "React", devicon: "" },
-  { name: "Next", devicon: "" },
+export const frontendSkills = [
+  {
+    name: "JavaScript",
+    devicon:
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
+  },
+  {
+    name: "React",
+    devicon:
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
+  },
+  {
+    name: "Next",
+    devicon:
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-plain.svg",
+  },
 ];
 
-export const backend = [];
+export const backendSkills = [];
 
-export const databases = [];
-
-export const other = [];
+export const otherSkills = [];

@@ -1,3 +1,55 @@
+.section {
+  width: calc(100% - 4rem);
+  margin-inline: auto;
+}
+
 .section h3 {
   padding-top: 0;
+}
+
+.cards {
+  display: grid;
+  gap: 1rem;
+}
+@media (min-width: 920px) {
+  .cards {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+}
+
+.card {
+  padding: 1.5rem;
+
+  -webkit-box-shadow: 0px 0px 15px 4px var(--color-light-grey);
+  -moz-box-shadow: 0px 0px 15px 4px var(--color-light-grey);
+  box-shadow: 0px 0px 15px 4px var(--color-light-grey);
+}
+
+.card h4 {
+  font-size: 1.5rem;
+  color: var(--color-purple);
+}
+.card h4::after {
+  display: block;
+  content: "";
+  height: 3px;
+  width: 160px;
+  background-color: var(--color-purple);
+  margin-bottom: 1rem;
+}
+
+.devicon {
+  width: 50px;
+  height: 50px;
+}
+
+.card-list {
+  display: grid;
+  gap: 0.6rem;
+}
+.card-list li {
+  display: flex;
+  gap: 0.8rem;
+  align-items: center;
+  font-size: 1.3rem;
 }
