@@ -6,11 +6,16 @@ const Projects = () => {
   function Card({ project }: { project: project }) {
     return (
       <div className={styles.card}>
-        <div>IMAGE</div>
+        <div>
+          <img
+            src={project.image}
+            alt={`preview of ${project.title}`}
+            className={styles["preview-image"]}
+          />
+        </div>
 
         <div className={styles["card-content"]}>
           <h4>{project.title}</h4>
-          <p className={styles['card-description']}>{project.description}</p>
 
           <div className={styles["card-stack"]}>
             {project.stack.map((skill) => (
@@ -18,13 +23,15 @@ const Projects = () => {
             ))}
           </div>
 
-          <div className={styles.buttons}>
-            <a href={project.repo} target="_blank" rel="noopener noreferrer">
-              GitHub Repo
-            </a>
+          <p className={styles["card-description"]}>{project.description}</p>
 
+          <div className={styles.buttons}>
             <a href={project.preview} target="_blank" rel="noopener noreferrer">
               Preview
+            </a>
+
+            <a href={project.repo} target="_blank" rel="noopener noreferrer">
+              Repo
             </a>
           </div>
         </div>

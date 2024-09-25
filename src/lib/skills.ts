@@ -17,7 +17,7 @@ export const frontendSkills: skill[] = [
   {
     name: "JavaScript",
     devicon:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-plain.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
   },
   {
     name: "React",
@@ -68,7 +68,7 @@ export const backendSkills: skill[] = [
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg",
   },
   {
-    name: "MongoDB",
+    name: "Mongo",
     devicon:
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-plain.svg",
   },
@@ -104,10 +104,5 @@ export const otherSkills: skill[] = [
     name: "Figma",
     devicon:
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg",
-  },
-  {
-    name: "AdobeXd",
-    devicon:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/xd/xd-plain.svg",
   },
 ];
