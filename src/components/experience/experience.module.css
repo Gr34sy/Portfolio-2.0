@@ -9,16 +9,12 @@
 
 .cards {
   display: grid;
-  gap: 1rem;
+  gap: 3rem;
 }
 @media (min-width: 920px) {
   .cards {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   }
-}
-
-.card {
-  padding: 1.5rem;
 }
 
 .card h4 {
@@ -34,18 +30,32 @@
   margin-bottom: 1rem;
 }
 
-.devicon {
-  width: 50px;
-  height: 50px;
-}
-
 .card-list {
+  --devicon-size: 50px;
+
   display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   gap: 0.6rem;
 }
 .card-list li {
-  display: flex;
-  gap: 0.8rem;
+  display: grid;
+  gap: 0.3rem;
+  text-align: center;
   align-items: center;
-  font-size: 1.3rem;
+  justify-items: center;
+  font-size: 0.9rem;
+  padding: 0.6rem;
+  background-color: var(--color-light-grey);
+  border: 2px solid var(--color-grey);
+  border-radius: var(--rounded-radius);
+  transition: 0.5s ease-in-out;
+}
+.card-list li:hover {
+  color: var(--color-purple);
+  background-color: var(--color-white);
+  border-color: var(--color-purple);
+}
+.devicon {
+  width: var(--devicon-size);
+  height: var(--devicon-size);
 }
