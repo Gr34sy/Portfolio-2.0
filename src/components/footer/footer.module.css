@@ -1,12 +1,45 @@
 .separator {
   width: 0;
   height: 0;
-  border-right: 100vw solid transparent;
-  border-bottom: 10vw solid var(--color-black);
+  border-right: 100dvw solid transparent;
+  border-bottom: 10dvw solid var(--color-black);
   margin-top: 5vw;
+  overflow: hidden;
 }
 
 .footer {
   color: var(--color-white);
   background-color: var(--color-black);
+  padding-bottom: 2rem;
+}
+
+.container {
+  display: grid;
+  gap: 1.5rem;
+  width: min(100% - 4rem, 1600px);
+  margin-inline: auto;
+}
+
+.container li {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  color: var(--color-grey);
+}
+
+.container li a {
+  text-decoration: none;
+
+  color: var(--color-light-grey);
+  transition: 0.4s ease-in-out;
+  font-size: 1.3rem;
+}
+.container li a:hover {
+  opacity: 0.8;
+  color: var(--color-purple);
 }

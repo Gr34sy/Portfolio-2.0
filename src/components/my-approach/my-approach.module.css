@@ -18,6 +18,7 @@
   border-left: 100vw solid transparent;
   border-bottom: 10vw solid var(--color-black);
   margin-top: 5vw;
+  overflow: hidden;
 }
 
 .separator-bottom {
@@ -26,6 +27,7 @@
   border-left: 100vw solid transparent;
   border-top: 10vw solid var(--color-black);
   margin-bottom: 5vw;
+  overflow: hidden;
 }
 
 .card {
