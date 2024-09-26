@@ -10,7 +10,9 @@
   --section-spacing: 5rem;
   --rounded-radius: 0.6rem;
 }
-
+html {
+  overflow-x: hidden;
+}
 body {
   font-family: var(--font-base);
   font-weight: 400;
