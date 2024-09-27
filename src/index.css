@@ -8,6 +8,7 @@
   --color-black: #151513;
 
   --section-spacing: 5rem;
+  --section-content-width: min(100% - 4rem, 1600px);
   --rounded-radius: 0.6rem;
 }
 html {

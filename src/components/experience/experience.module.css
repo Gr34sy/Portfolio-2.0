@@ -1,5 +1,5 @@
 .section {
-  width: min(100% - 4rem, 1600px);
+  width: var(--section-content-width);
   margin-inline: auto;
 }
 
