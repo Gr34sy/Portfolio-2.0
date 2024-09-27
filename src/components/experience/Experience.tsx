@@ -8,9 +8,9 @@ const Experience = () => {
       <div className={styles.card}>
         <h4>{stack}</h4>
         <ul className={styles["card-list"]}>
-          {skills.map((skill) => {
+          {skills.map((skill, i) => {
             return (
-              <li>
+              <li key={`${i}-${skill}`}>
                 <img
                   src={skill.devicon}
                   alt={`${skill.name} logo`}
@@ -26,14 +26,17 @@ const Experience = () => {
   }
 
   return (
-    <section className={styles.section}>
-      <h3 className="header-title">Tech Stack</h3>
-      <div className={styles.cards}>
-        <Card stack="Frontend" skills={frontendSkills} />
-        <Card stack="Backend" skills={backendSkills} />
-        <Card stack="Other" skills={otherSkills} />
-      </div>
-    </section>
+    <>
+      <div className={styles.separator} id="tech-stack"></div>
+      <section className={styles.section}>
+        <h3 className="header-title">Tech Stack</h3>
+        <div className={styles.cards}>
+          <Card stack="Frontend" skills={frontendSkills} />
+          <Card stack="Backend" skills={backendSkills} />
+          <Card stack="Other" skills={otherSkills} />
+        </div>
+      </section>
+    </>
   );
 };
 

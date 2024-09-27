@@ -1,3 +1,4 @@
+import Navbar from "./components/navbar/Navbar";
 import AboutMe from "./components/about-me/AboutMe";
 import MyApproach from "./components/my-approach/MyApproach";
 import Experience from "./components/experience/Experience";
@@ -7,6 +8,8 @@ import Projects from "./components/projects/Projects";
 function App() {
   return (
     <div className="App">
+      <Navbar />
+
       <AboutMe
         title="Webdev"
         subtitle="With an abundant tech stack experience"

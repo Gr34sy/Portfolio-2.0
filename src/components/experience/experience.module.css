@@ -1,3 +1,12 @@
+.separator {
+  width: 0;
+  height: 0;
+  border-left: 100vw solid transparent;
+  border-top: 10vw solid var(--color-black);
+  margin-bottom: 5vw;
+  overflow: hidden;
+}
+
 .section {
   width: var(--section-content-width);
   margin-inline: auto;

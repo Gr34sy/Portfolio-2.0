@@ -8,7 +8,7 @@ import { faCode } from "@fortawesome/free-solid-svg-icons";
 const Footer = () => {
   return (
     <>
-      <div className={styles.separator}></div>
+      <div className={styles.separator} id="contact"></div>
       <footer className={styles.footer}>
         <h2 className="header-title">Contact</h2>
 

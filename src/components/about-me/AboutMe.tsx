@@ -9,7 +9,7 @@ type AboutMeProps = {
 
 const AboutMe = ({ title, subtitle, location, description }: AboutMeProps) => {
   return (
-    <main>
+    <main id="about">
       <div className={styles.header}>
         <div className={styles["header__content"]}>
           <h1>{title}</h1>

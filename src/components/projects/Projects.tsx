@@ -18,8 +18,10 @@ const Projects = () => {
           <h4>{project.title}</h4>
 
           <div className={styles["card-stack"]}>
-            {project.stack.map((skill) => (
-              <div className={styles.skill}>{skill}</div>
+            {project.stack.map((skill, i) => (
+              <div className={styles.skill} key={`${i}-${skill}`}>
+                {skill}
+              </div>
             ))}
           </div>
 
@@ -40,12 +42,12 @@ const Projects = () => {
   }
 
   return (
-    <section className={styles.section}>
+    <section className={styles.section} id="projects">
       <h3 className="header-title">Projects</h3>
 
       <div className={styles.projects}>
-        {projects.map((project) => (
-          <Card project={project} />
+        {projects.map((project, i) => (
+          <Card project={project} key={`${i}-${project}`} />
         ))}
       </div>
     </section>

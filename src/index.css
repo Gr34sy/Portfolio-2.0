@@ -23,6 +23,7 @@ body {
 
   color: var(--color-black);
   background-color: var(--white);
+  position: relative;
 }
 
 .header-title {
