@@ -4,10 +4,10 @@ type AboutMeProps = {
   title: string;
   subtitle: string;
   location: string;
-  description: string;
+  paragraphs: string[];
 };
 
-const AboutMe = ({ title, subtitle, location, description }: AboutMeProps) => {
+const AboutMe = ({ title, subtitle, location, paragraphs }: AboutMeProps) => {
   return (
     <main id="about">
       <div className={styles.header}>
@@ -25,9 +25,12 @@ const AboutMe = ({ title, subtitle, location, description }: AboutMeProps) => {
           <p>Based in {location}</p>
         </div>
 
-        <div>
-          <h3 className={styles["about-header"]}>About me</h3>
-          <p>{description}</p>
+        <div className={styles.description}>
+          <h3>About me</h3>
+
+          {paragraphs.map((p, i) => (
+            <p key={`about-p-${i}`}>{p}</p>
+          ))}
         </div>
       </div>
     </main>

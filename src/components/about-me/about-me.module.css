@@ -83,11 +83,11 @@ main {
   text-align: center;
 }
 
-.about-header {
+.description h3 {
   font-size: 2rem;
   color: var(--color-purple);
 }
-.about-header::after {
+.description h3::after {
   display: block;
   content: "";
   height: 3px;
@@ -96,6 +96,8 @@ main {
   margin-bottom: 0.6rem;
 }
 
-.about-header + p {
+.description p {
   font-size: 1.3rem;
+  padding-top: 0.8em;
+  word-spacing: 0.2em;
 }

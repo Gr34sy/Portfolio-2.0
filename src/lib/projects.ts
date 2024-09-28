@@ -18,7 +18,8 @@ export type project = {
 export const projects: project[] = [
   {
     title: "Memory Game",
-    description: "Simple memory game created using React.",
+    description:
+      "Simple memory game created using React. Game allows to play solo or up to four players. Player with the most discovered pairs - wins. As simple as that!",
     repo: "https://github.com/Gr34sy/memory-game",
     preview: "https://greasy-memory-game.netlify.app/",
     stack: ["React", "JavaScript", "CSS"],
