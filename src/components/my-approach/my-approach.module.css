@@ -62,7 +62,7 @@
   justify-items: center;
 }
 .card-front h3 {
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   letter-spacing: 0.2em;
 }
 
@@ -83,6 +83,7 @@
 }
 .card-back p {
   padding: 2rem;
+  font-size: 1.2rem;
 }
 
 .icon {

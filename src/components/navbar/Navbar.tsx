@@ -6,7 +6,6 @@ const Navbar = () => {
 
   const handleScroll = () => {
     const scrollPosition = window.scrollY; // scroll position
-    console.log(scrollPosition);
 
     if (scrollPosition > 195 && display === false) {
       setDisplay(true);
