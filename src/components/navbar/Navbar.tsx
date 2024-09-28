@@ -9,9 +9,9 @@ const Navbar = () => {
     const scrollPosition = window.scrollY; // scroll position
     console.log(scrollPosition);
 
-    if (scrollPosition > 180 && display === false) {
+    if (scrollPosition > 195 && display === false) {
       setDisplay(true);
-    } else if (scrollPosition < 180) {
+    } else if (scrollPosition < 195) {
       setDisplay(false);
     } else {
       return;
