@@ -12,9 +12,9 @@
   margin-inline: auto;
 }
 
-.section h3 {
+/* .section h2 {
   padding-top: 0;
-}
+} */
 
 .cards {
   display: grid;
@@ -26,8 +26,9 @@
   }
 }
 
-.card h4 {
-  font-size: 1.5rem;
+.card h3 {
+  font-size: 1.6rem;
+  padding-bottom: 0.4em;
   color: var(--color-purple);
 }
 .card h4::after {
