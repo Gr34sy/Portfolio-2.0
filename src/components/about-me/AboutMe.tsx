@@ -13,7 +13,7 @@ const AboutMe = ({ title, subtitle, location, description }: AboutMeProps) => {
       <div className={styles.header}>
         <div className={styles["header__content"]}>
           <h1>{title}</h1>
-          <h2>{subtitle}</h2>
+          <p>{subtitle}</p>
         </div>
 
         <div className={styles.avatar}></div>
@@ -21,7 +21,7 @@ const AboutMe = ({ title, subtitle, location, description }: AboutMeProps) => {
 
       <div className={styles.hero}>
         <div>
-          <h3 className={styles.devname}>Piotr Słupski</h3>
+          <h2 className={styles.devname}>Piotr Słupski</h2>
           <p>Based in {location}</p>
         </div>
 

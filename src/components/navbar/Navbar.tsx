@@ -1,4 +1,3 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import styles from "./navbar.module.css";
 import { useState, useEffect } from "react";
 

@@ -15,7 +15,7 @@ const Projects = () => {
         </div>
 
         <div className={styles["card-content"]}>
-          <h4>{project.title}</h4>
+          <h3>{project.title}</h3>
 
           <div className={styles["card-stack"]}>
             {project.stack.map((skill, i) => (
@@ -43,7 +43,7 @@ const Projects = () => {
 
   return (
     <section className={styles.section} id="projects">
-      <h3 className="header-title">Projects</h3>
+      <h2 className="header-title">Projects</h2>
 
       <div className={styles.projects}>
         {projects.map((project, i) => (

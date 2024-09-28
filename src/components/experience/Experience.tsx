@@ -6,7 +6,7 @@ const Experience = () => {
   function Card({ stack, skills }: { stack: string; skills: skill[] }) {
     return (
       <div className={styles.card}>
-        <h4>{stack}</h4>
+        <h3>{stack}</h3>
         <ul className={styles["card-list"]}>
           {skills.map((skill, i) => {
             return (
@@ -29,7 +29,7 @@ const Experience = () => {
     <>
       <div className={styles.separator} id="tech-stack"></div>
       <section className={styles.section}>
-        <h3 className="header-title">Tech Stack</h3>
+        <h2 className="header-title">Tech Stack</h2>
         <div className={styles.cards}>
           <Card stack="Frontend" skills={frontendSkills} />
           <Card stack="Backend" skills={backendSkills} />
