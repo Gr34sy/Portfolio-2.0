@@ -9,13 +9,14 @@
   --color-black: #151513;
 
   --section-spacing: 5rem;
-  --section-content-width: min(100% - 4rem, 1600px);
+  --section-content-width: min(100% - 3rem, 1600px);
   --rounded-radius: 0.6rem;
 }
-html {
-  overflow-x: hidden;
-}
+
 body {
+  overflow-x: hidden;
+  position: relative;
+
   font-family: var(--font-base);
   font-weight: 400;
   font-style: normal;
@@ -24,7 +25,6 @@ body {
 
   color: var(--color-black);
   background-color: var(--white);
-  position: relative;
 }
 
 .header-title {

@@ -14,7 +14,7 @@
 .navbar {
   display: none;
   position: fixed;
-  right: 10px;
+  right: 20px;
   top: 0px;
   z-index: 1;
 
@@ -23,7 +23,7 @@
   border: 1px solid var(--color-white);
 }
 
-@media (min-width: 700px) {
+@media (min-width: 1315px) {
   .navbar.show {
     display: block;
     animation: fadeIn 1.2s;

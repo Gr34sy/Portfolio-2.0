@@ -7,8 +7,13 @@
   margin-inline: auto;
 
   display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 2rem;
-  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+}
+@media (min-width: 540px) {
+  .projects {
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  }
 }
 
 .card {
@@ -28,7 +33,6 @@
 
 .preview-image {
   width: 100%;
-  height: 260px;
   object-fit: cover;
   border-top-left-radius: var(--rounded-radius);
   border-top-right-radius: var(--rounded-radius);
@@ -55,6 +59,7 @@
 
 .card-stack {
   display: flex;
+  flex-wrap: wrap;
   gap: 0.4rem;
 }
 
