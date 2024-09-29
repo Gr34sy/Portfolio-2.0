@@ -4,26 +4,26 @@ import { useState, useEffect } from "react";
 const Navbar = () => {
   const [display, setDisplay] = useState(false);
 
+  const handleScroll = () => {
+    const scrollPosition = window.scrollY; // scroll position
+
+    if (scrollPosition > 195 && display === false) {
+      setDisplay(true);
+    } else if (scrollPosition < 195) {
+      setDisplay(false);
+    } else {
+      return;
+    }
+  };
+
   useEffect(() => {
-    const handleScroll = () => {
-      const scrollPosition = window.scrollY; // scroll position
-
-      if (scrollPosition > 195 && display === false) {
-        setDisplay(true);
-      } else if (scrollPosition < 195) {
-        setDisplay(false);
-      } else {
-        return;
-      }
-    };
-
-    handleScroll();
     window.addEventListener("scroll", handleScroll);
 
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, [display]);
+    // eslint-disable-next-line
+  }, []);
 
   return (
     <nav
