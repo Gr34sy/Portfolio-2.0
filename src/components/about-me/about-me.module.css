@@ -87,6 +87,9 @@ main {
   border-radius: 50%;
   width: var(--avatar-picture-size);
   height: var(--avatar-picture-size);
+  background-image: url("../../assets/profilePic.jpg");
+  background-size: cover;
+  background-position: center center;
 }
 
 .hero {
