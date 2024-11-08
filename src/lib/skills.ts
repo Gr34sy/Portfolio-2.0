@@ -5,104 +5,109 @@ export type skill = {
 
 export const frontendSkills: skill[] = [
   {
-    name: "HTML",
+    name: 'HTML',
     devicon:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-plain.svg",
+      'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-plain.svg',
   },
   {
-    name: "CSS",
+    name: 'CSS',
     devicon:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-plain.svg",
+      'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-plain.svg',
   },
   {
-    name: "JavaScript",
+    name: 'JavaScript',
     devicon:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
+      'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg',
   },
   {
-    name: "React",
+    name: 'React',
     devicon:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
+      'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg',
   },
   {
-    name: "TypeScript",
+    name: 'TypeScript',
     devicon:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-plain.svg",
+      'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-plain.svg',
   },
   {
-    name: "SASS",
+    name: 'SASS',
     devicon:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg",
+      'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg',
   },
   {
-    name: "Tailwind",
+    name: 'Tailwind',
     devicon:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
+      'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg',
   },
   {
-    name: "MaterialUI",
+    name: 'MaterialUI',
     devicon:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/materialui/materialui-plain.svg",
+      'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/materialui/materialui-plain.svg',
   },
   {
-    name: "Bootstrap",
+    name: 'Bootstrap',
     devicon:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg",
+      'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg',
   },
 ];
 
 export const backendSkills: skill[] = [
   {
-    name: "Next",
+    name: 'Next',
     devicon:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-plain.svg",
+      'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-plain.svg',
   },
   {
-    name: "Node",
+    name: 'Node',
     devicon:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-plain.svg",
+      'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-plain.svg',
   },
   {
-    name: "Express",
+    name: 'Express',
     devicon:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg",
+      'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg',
   },
   {
-    name: "Mongo",
+    name: 'Mongo',
     devicon:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-plain.svg",
+      'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-plain.svg',
   },
   {
-    name: "Firebase",
+    name: 'Appwrite',
     devicon:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-plain.svg",
+      'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/appwrite/appwrite-original.svg',
   },
   {
-    name: "mySQL",
+    name: 'Firebase',
     devicon:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg",
+      'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-plain.svg',
+  },
+  {
+    name: 'mySQL',
+    devicon:
+      'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg',
   },
 ];
 
 export const otherSkills: skill[] = [
   {
-    name: "Python",
+    name: 'Python',
     devicon:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg",
+      'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg',
   },
   {
-    name: "VSC",
+    name: 'VSC',
     devicon:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg",
+      'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg',
   },
   {
-    name: "Git",
+    name: 'Git',
     devicon:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-plain.svg",
+      'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-plain.svg',
   },
   {
-    name: "Figma",
+    name: 'Figma',
     devicon:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg",
+      'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg',
   },
 ];
