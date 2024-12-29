@@ -18,6 +18,15 @@ export type project = {
 
 export const projects: project[] = [
   {
+    title: 'Gaming Landing Page',
+    description:
+      'Simple landing page created using React and GSAP. I have recreated the Zentry.com page, in order to test and learn tools for animations, provided by GSAP library.',
+    repo: 'https://github.com/Gr34sy/gaming-page',
+    preview: 'https://greasy-gaming.netlify.app',
+    stack: ['React', 'Tailwind', 'GSAP'],
+    image: horizonBanking,
+  },
+  {
     title: 'Horizon Banking',
     description:
       'Built with Next.js, Horizon is a simulation of financial SaaS platform that connects to multiple bank accounts, displays transactions in real-time, allows users to transfer money to other platform users and also manages their finances altogether.',
