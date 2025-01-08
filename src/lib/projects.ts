@@ -6,6 +6,7 @@ import devfinder from '../assets/devfinder.png';
 import restCountries from '../assets/restCountries.png';
 import musicMania from '../assets/musicMania.png';
 import horizonBanking from '../assets/horizonBanking.png';
+import gamingPage from '../assets/gamingPage.png';
 
 export type project = {
   title: string;
@@ -24,7 +25,7 @@ export const projects: project[] = [
     repo: 'https://github.com/Gr34sy/gaming-page',
     preview: 'https://greasy-gaming.netlify.app',
     stack: ['React', 'Tailwind', 'GSAP'],
-    image: horizonBanking,
+    image: gamingPage,
   },
   {
     title: 'Horizon Banking',
